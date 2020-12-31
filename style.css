@@ -4,23 +4,6 @@
 	box-sizing: border-box;
 }
 
-/* Page Loading */
-
-/*body {
-	display:none;
-}
-
-.preload { 
-    width:100px;
-    height: 100px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-}*/
-
-/* End - Page Loading */
-
-
 /* Font Files */
 
 		/* Gilroy Font */
@@ -379,14 +362,14 @@ body {
 
 		/* Hero Section */
 
-			.hero-section {
+			.hero-section, .form-hero-section {
 				width: 100vw;
 				height: 75vh;
 				max-width: 100%;
 				max-height: 100%;
 			}
 
-			.hero-content-wrapper {
+			.hero-content-wrapper, .form-hero-content-wrapper {
 				width: 100%;
 				height: 75vh;
 				/*margin-bottom: 30px;*/
@@ -421,6 +404,11 @@ body {
 			.btn-default:hover, .btn-default:focus {
 				background: var(--black-gradient);
 				border: none;
+			}
+
+			.form-hero-content {
+				width: 100vw;
+				height: 100%;
 			}
 
 		/* End - Hero Section */
@@ -834,11 +822,11 @@ body {
 				display: none;
 			}
 
-			.hero-section {
+			.hero-section, .form-hero-section {
 			    height: 100vh;
 			}
 
-			.hero-content-wrapper {
+			.hero-content-wrapper, .form-hero-content-wrapper {
 			    width: 100%;
 			    height: 100vh;
 			}
@@ -913,6 +901,11 @@ body {
 
 			.footer-btn {
 				width: 30%;
+			}
+
+			.form-hero-content {
+				width: 90vw;
+				height: 100%;
 			}
 
 		}
