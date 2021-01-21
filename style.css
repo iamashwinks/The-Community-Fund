@@ -687,11 +687,15 @@ body {
 				margin-top: 15px;
 			}
 
+			.twitter-embed-title {
+				margin-bottom: 20px;
+			}
+
 
 		/* End - Testimonials Section */
 
 			.mentor-section, .testimonials-section {
-				display: none;
+				display: none !important;
 			}
 
 
@@ -1004,6 +1008,10 @@ body {
 
 			.testimonial-card-wrapper {
 				justify-content: center;
+			}
+
+			.twitter-embed-card-wrapper {
+				margin: 20px 0 0;
 			}
 
 		}
