@@ -656,45 +656,117 @@ body {
 
 		/* Testimonials Section */
 
-			.testimonial-title {
-				/*text-align: center;*/
-			}
-
 			.testimonial-card {
 				background: var(--white-1);
 				border: 1px solid #eee;
-				border-radius: 5px;
+				border-radius: 10px;
 				width: 96%;
-				height: 340px;
-				padding: 40px 30px 30px;
+				height: 470px;
+				padding: 36px 30px 30px;
 				position: relative;
 				margin-top: 40px;
 			}
 
-			.testimonail-card-desc {
+			.testimonial-card-desc {
 				color: var(--black-3);
+				font-size: 18px;
+				line-height: 28px;
 			}
 
-			.testimonial-card-social-handles {
+			.testimonial-card-details-wrapper {
 				position: absolute;
-			    bottom: 20px;
+				bottom: 30px;
+    			width: 85%;
 			}
 
-			.testimonial-card-social-handle {
-				margin-left: 8px;
-				line-height: 16px;
+			.testimonial-card-bio, .twitter-proof-card-bio {
+				margin-right: 12px;
+			}
+
+
+
+			.twitter-proof-title, .testimonial-title {
+				margin-bottom: -10px;
+			}
+
+			.twitter-proof-card {
+				background: var(--white-1);
+				border: 1px solid #ccc;
+				border-radius: 10px;
+				width: 96%;
+				height: 500px;
+				padding: 30px 30px 45px;
+				position: relative;
+				margin-top: 40px;
+			}
+
+			.twitter-proof-card-details, .testimonial-card-details {
+				position: relative;
+			}
+
+			.twitter-proof-card-bio-img,.testimonial-card-bio-img {
+				margin-right: 16px;
+				width: 50px;
+				height: 50px;
+			}
+
+			.twitter-proof-card-name, .testimonial-card-name {
+				font-weight: 600;
+				line-height: 24px;
 				color: var(--black-1);
-				margin-top: 15px;
+				margin-bottom: 2px;
+				text-decoration: none;
 			}
 
-			.twitter-embed-title {
-				margin-bottom: 20px;
+			.twitter-proof-card-name:hover, .testimonial-card-name:hover {
+				color: var(--black-1);
+				text-decoration: underline;
+			}
+
+			.twitter-proof-card-username {
+				font-size: 12px;
+				line-height: 18px;
+				color: var(--black-4);
+				margin-bottom: 0;
+				text-decoration: none;
+			}
+
+			.twitter-proof-card-username:hover {
+				color: var(--black-4);
+				text-decoration: underline;
+			}
+
+			.testimonial-card-role {
+				font-size: 13px;
+				font-weight: 600;
+				line-height: 18px;
+				color: var(--blood-primary);
+				margin-bottom: 0;
+				text-decoration: none;
+			}
+
+			.testimonial-card-role:hover {
+				color: var(--blood-primary);
+				text-decoration: underline;
+			}
+
+			.twitter-proof-card-icon-link, .testimonial-card-icon-link {
+				position: absolute;
+				right: 0px;
+				top: 4px;
+			}
+
+			.twitter-proof-card-desc {
+				margin-top: 30px;
+				font-size: 18px;
+				line-height: 28px;
+				color: var(--black-3);
 			}
 
 
 		/* End - Testimonials Section */
 
-			.mentor-section, .testimonials-section {
+			.mentor-section {
 				display: none !important;
 			}
 
@@ -714,7 +786,11 @@ body {
 			}
 
 			.testimonial-card {
-			    height: 360px;
+			    height: 520px;
+			}
+
+			.twitter-proof-card {
+				height: 520px;
 			}
 
 		}
@@ -752,7 +828,11 @@ body {
 			}
 
 			.testimonial-card {
-			    height: 400px;
+			    height: 680px;
+			}
+
+			.twitter-proof-card {
+				height: 560px;
 			}
 
 		}
@@ -798,6 +878,14 @@ body {
 
 			.appl-info, .mentor-info {
 			    width: 100%;
+			}
+
+			.testimonial-card {
+			    height: 560px;
+			}
+
+			.twitter-proof-card {
+				height: 520px;
 			}
 
 			.mobile-col2 {
@@ -896,7 +984,11 @@ body {
 			}
 
 			.testimonial-card {
-			    height: 260px;
+			    height: 420px;
+			}
+
+			.twitter-proof-card {
+				height: 440px;
 			}
 
 			.footer-margin {
@@ -991,7 +1083,7 @@ body {
 			    font-family: Gilroy-semibold, sans-serif;
 			}
 
-			.mentor-mobile-col, .testimonial-mobile-col {
+			.mentor-mobile-col, .testimonial-mobile-col, .twitter-proof-mobile-col {
 				display: flex;
 				align-items: center;
 				justify-content: center;
@@ -1002,17 +1094,19 @@ body {
 			}
 
 			.testimonial-card {
-			    height: 400px;
+			    height: 680px;
 			    width: 90%;
 			}
 
-			.testimonial-card-wrapper {
+			.twitter-proof-card {
+				height: 560px;
+				width: 90%;
+			}
+
+			.testimonial-card-wrapper, .twitter-proof-card-wrapper {
 				justify-content: center;
 			}
 
-			.twitter-embed-card-wrapper {
-				margin: 20px 0 0;
-			}
 
 		}
 
