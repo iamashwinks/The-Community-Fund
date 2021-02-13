@@ -414,6 +414,16 @@ body {
 				border: none;
 			}
 
+			.hero-cta-wrap {
+				display: flex;
+				align-items: center;
+    			justify-content: flex-start;
+			}
+
+			.ph-badge {
+				margin-left: 20px;
+			}
+
 			.form-hero-content {
 				width: 100vw;
 				height: 100%;
@@ -815,6 +825,15 @@ body {
 
 		@media screen and (max-width: 1199px) {
 
+			.hero-cta-wrap {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			.ph-badge {
+				margin: 10px 0 0 0;
+			}
+
 			.cf-intro-img {
 				width: 120%;
 			}
@@ -965,6 +984,11 @@ body {
 
 			.hero-img {
 			    width: 70%;
+			}
+
+			.hero-cta-wrap {
+			    flex-direction: column;
+			    align-items: center;
 			}
 
 			.cf-intro-img, .about-tpf-img {
