@@ -854,6 +854,12 @@ body {
 				margin: 10px 0 0 0;
 			}
 
+			.client-logo {
+			    margin: 25px 30px;
+			    height: 45px;
+			    width: 125px;
+			}
+
 			.cf-intro-img {
 				width: 120%;
 			}
@@ -915,6 +921,12 @@ body {
 			.hero-head {
 				font-size: 48px;
 				line-height: 56px;
+			}
+
+			.client-logo {
+			    margin: 25px 30px;
+			    height: 35px;
+			    width: 110px;
 			}
 
 			.cf-intro-img {
@@ -1134,6 +1146,12 @@ body {
 
 			.hero-img {
 			    width: 70%;
+			}
+
+			.client-logo {
+			    margin: 25px 20px;
+			    height: 35px;
+			    width: 115px;
 			}
 
 			.cf-intro-img, .about-tpf-img {
