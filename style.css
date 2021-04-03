@@ -429,6 +429,26 @@ body {
 				height: 100%;
 			}
 
+			.client-logos {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+			    flex-wrap: wrap;
+			    /* align-items: center; */
+			    justify-content: center;
+			}
+
+			.client-logo {
+				background-size: contain;
+			    background-position: 50% 50%;
+			    background-repeat: no-repeat;
+			    margin: 25px 45px;
+			    /*display: inline-block;*/
+			    height: 45px;
+			    width: 150px;
+			}
+
 		/* End - Hero Section */
 
 		/* CF Intro Section */
